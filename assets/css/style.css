@@ -35,6 +35,11 @@ a {
     width: 225px;
 }
 
+#site_main #about {
+    background-color: var(--ex-primary);
+}
+
+
 /* #region DEBUG */
 
 .debug * {
