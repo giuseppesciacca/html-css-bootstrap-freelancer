@@ -40,6 +40,16 @@ a {
 }
 
 
+
+#footer_top {
+    background-color: rgba(58, 84, 109, 1);
+}
+
+#footer_bottom {
+    height: 110px;
+    background-color: var(--ex-secondary);
+}
+
 /* #region DEBUG */
 
 .debug * {
