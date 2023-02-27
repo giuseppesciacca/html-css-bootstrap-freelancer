@@ -2,6 +2,15 @@
 :root {
     --ex-primary: rgba(26, 188, 156, 1);
     --ex-secondary: rgba(44, 62, 80, 1);
+    --ex-terziary: rgba(58, 84, 109, 1);
+    --ex-bordeaux: rgba(186, 75, 99, 1);
+    --ex-light-azure: rgba(30, 164, 182, 1);
+    --ex-azure: rgba(28, 131, 193, 1);
+    --ex-beidge: rgba(204, 178, 163, 1);
+    --ex-blue: rgba(14, 56, 181, 1);
+    --ex-dark: rgba(20, 15, 15, 1);
+    --ex-lighter: rgba(255, 255, 255, 1);
+    --ex-dark-grey: rgba(52, 52, 52, 1);
 }
 
 a {
@@ -22,7 +31,7 @@ a {
 }
 
 #site_header .row a {
-    color: white;
+    color: var(--ex-lighter);
 }
 
 /* #region MAIN */
@@ -42,7 +51,7 @@ a {
 
 
 #footer_top {
-    background-color: rgba(58, 84, 109, 1);
+    background-color: var(--ex-terziary);
 }
 
 #footer_bottom {
