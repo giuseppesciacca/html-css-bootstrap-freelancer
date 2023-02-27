@@ -1,21 +1,49 @@
+/* #region COMMON and Utilities */
 :root {
     --ex-primary: rgba(26, 188, 156, 1);
     --ex-secondary: rgba(44, 62, 80, 1);
 }
 
+a {
+    text-decoration: none;
+}
+
+
+/* #endregion COMMON and Utilities */
+
+
+/* #region HEADER */
+#site_header {
+    background-color: var(--ex-secondary);
+}
+
+#site_header .row {
+    height: 90px;
+}
+
+#site_header .row a {
+    color: white;
+}
+
+/* main */
+#site_main .jumbotron {
+    background-color: var(--ex-primary);
+}
+
+#site_main .image {
+    width: 225px;
+}
+
+/* #region DEBUG */
+
 .debug * {
     border: 1px dashed white;
 }
 
-.debug #site_header {
-    background-color: var(--ex-secondary);
+.debug .jumbotron {
+    height: 500px;
 }
 
-.debug #site_header .row {
-    height: 100%;
-    height: 90px;
-}
 
-.debug #site_header .col {
-    color: white;
-}
+
+/* #endregion DEBUG */
