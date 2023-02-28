@@ -70,9 +70,27 @@ a {
     background-color: var(--ex-terziary);
 }
 
+#footer_top span {
+    margin: 0 1rem 0 1rem;
+    display: inline-block;
+    border: 1px solid white;
+    width: 50px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+
+#footer_top span i {
+    line-height: 50px;
+    scale: 1.5;
+}
+
 #footer_bottom {
     height: 110px;
     background-color: var(--ex-secondary);
+}
+
+#start_boot_link {
+    color: var(--ex-primary);
 }
 
 /* #endregion FOOTER */
