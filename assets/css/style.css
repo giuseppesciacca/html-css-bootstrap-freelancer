@@ -98,13 +98,13 @@ a:hover {
     margin: 0 0.25rem 1rem 0;
     display: inline-block;
     border: 1px solid white;
-    width: 50px;
+    width: 45px;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
 }
 
 #footer_top span i {
-    line-height: 50px;
+    line-height: 45px;
     scale: 1.5;
 }
 
