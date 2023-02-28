@@ -34,13 +34,14 @@ a {
     color: var(--ex-lighter);
 }
 
-/* #region MAIN */
+/* #endregion HEADER */
 
+/* #region MAIN */
 #site_main #jumbotron {
     background-color: var(--ex-primary);
 }
 
-#site_main .image {
+#jumbotron .image {
     width: 225px;
 }
 
@@ -48,8 +49,9 @@ a {
     background-color: var(--ex-primary);
 }
 
+/* #endregion MAIN */
 
-
+/* #region FOOTER */
 #footer_top {
     background-color: var(--ex-terziary);
 }
@@ -58,6 +60,9 @@ a {
     height: 110px;
     background-color: var(--ex-secondary);
 }
+
+/* #endregion FOOTER */
+
 
 /* #region DEBUG */
 
@@ -74,9 +79,8 @@ a {
 }
 
 .debug #portfolio [class^=card] {
+    aspect-ratio: 1 / 1;
 
-    height: 150px;
 }
-
 
 /* #endregion DEBUG */
