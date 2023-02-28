@@ -33,13 +33,14 @@ a {
 /* #endregion HEADER */
 
 /* #region MAIN */
-#site_main #jumbotron {
+#site_main .jumbotron {
     background-color: var(--ex-primary);
 }
 
-#jumbotron .image {
-    width: 225px;
+.jumbotron .jumbo_image {
+    max-width: 225px;
 }
+
 
 #site_main #about {
     background-color: var(--ex-primary);
@@ -66,9 +67,9 @@ a {
     border: 1px dashed white;
 }
 
-.debug #jumbotron {
+/* .debug #jumbotron {
     height: 500px;
-}
+} */
 
 .debug #portfolio [class^=col] {
     background-color: red;
