@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .btn_my_primary {
     background-color: var(--ex-primary);
     border: solid var(--ex-primary);
@@ -52,6 +56,26 @@ a {
 
 .jumbotron .jumbo_image {
     max-width: 225px;
+}
+
+.star::before,
+.star::after {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 15%;
+    background-color: var(--ex-lighter);
+    margin: 0 1rem;
+}
+
+.star_black::before,
+.star_black::after {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 15%;
+    background-color: var(--ex-dark);
+    margin: 0 1rem;
 }
 
 #site_main #about {
@@ -100,29 +124,19 @@ a {
 
 /* #endregion FOOTER */
 
-.star::before,
-.star::after {
-    content: "";
-    display: inline-block;
-    height: 4px;
-    width: 10%;
-    background-color: var(--ex-lighter);
-    margin: 0 1rem;
+/* #region MEDIA SCREEN */
+
+@media screen and (min-width: 768px) {
+
+    h1,
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+    }
 }
-
-.star_black::before,
-.star_black::after {
-    content: "";
-    display: inline-block;
-    height: 4px;
-    width: 10%;
-    background-color: var(--ex-dark);
-    margin: 0 1rem;
-}
-
-
-
-
 
 /* #region DEBUG */
 
