@@ -26,12 +26,8 @@ a {
     background-color: var(--ex-secondary);
 }
 
-#site_header .row {
-    height: 90px;
-}
-
-#site_header .row a {
-    color: var(--ex-lighter);
+#site_header nav {
+    min-height: 90px;
 }
 
 /* #endregion HEADER */

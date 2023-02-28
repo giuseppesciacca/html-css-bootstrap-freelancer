@@ -13,33 +13,40 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body class="debug">
+<body class="">
 
-    <header id="site_header" class="debug text-light">
-        <div class="container">
-            <div class="row row-cols-2 align-items-center">
+    <header id="site_header" class="sticky-top">
 
-                <div class="col">
-                    <h2>START BOOTSTRAP</h2>
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container">
+
+                <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                <!-- /nav left -->
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- /hamburgher toggles -->
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#portfolio">PORTFOLIO</a>
+                        <a class="nav-link active" href="#about">ABOUT</a>
+                        <a class="nav-link active" href="#contact">CONTACT</a>
+                    </div>
                 </div>
-                <!-- header-left -->
-
-                <nav class="col text-end">
-                    <a href="#">PORTFOLIO</a>
-                    <a href="#">ABOUT</a>
-                    <a href="#">CONTACT</a>
-                </nav>
-                <!-- /nav header-right -->
+                <!-- /nav items right -->
 
             </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
+        </nav>
+        <!-- /nav -->
     </header>
     <!-- /#site_header -->
 
 
-    <main id="site_main">
+    <main id="site_main" class="debug">
 
         <section id="jumbotron">
             <div class="container text-center text-light">
@@ -153,7 +160,7 @@
     <!-- /#site_main -->
 
 
-    <footer id="site_footer" class="text-white text-center">
+    <footer id="site_footer" class="debug text-white text-center">
 
         <div id="footer_top">
 
