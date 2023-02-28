@@ -41,9 +41,12 @@ a {
     max-width: 225px;
 }
 
-
 #site_main #about {
     background-color: var(--ex-primary);
+}
+
+.btn_download:active {
+    scale:0.9;
 }
 
 /* #endregion MAIN */
